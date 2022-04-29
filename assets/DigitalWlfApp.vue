@@ -1,14 +1,23 @@
 <template>
   <div>
-    <h1>TESTSTS</h1>
+    <TopBar />
+    <Header />
     <router-view />
+    <Footer />
   </div>
 </template>
 
 <script>
+import TopBar from "./components/topbar.vue";
+import Header from "./components/header.vue";
+import Footer from "./components/footer.vue";
 export default {
   name: "DigitalWlfApp",
-  components: {},
+  components: {
+    TopBar,
+    Header,
+    Footer,
+  },
   computed: {},
   data() {
     return {};
