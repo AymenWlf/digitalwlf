@@ -13,7 +13,7 @@
                 <strong>Digital WLF</strong> est une micro-entreprise basée sur
                 <span><strong>L'ETHIQUE</strong></span
                 >, ce qui veut dire que nous nous engageons à nous investir au
-                <strong> MAXIMUM</strong> dans notre travail pour vous propose
+                <strong> MAXIMUM</strong> dans notre travail pour vous proposer
                 une solution WEB de <strong>QUALITE</strong>!
               </p>
               <div class="text-center">

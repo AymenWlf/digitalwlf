@@ -70,7 +70,7 @@
       </div>
     </div>
 
-    <div class="container d-lg-flex py-4">
+    <div class="container d-lg-flex py-4 align-items-baseline">
       <div class="me-lg-auto text-center text-lg-start">
         <div class="copyright">
           &copy; Copyright <strong><span>Digital WLF</span></strong
