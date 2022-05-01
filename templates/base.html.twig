@@ -40,11 +40,11 @@
       href="{{ asset('assets/vendor/glightbox/css/glightbox.min.css') }}"
       rel="stylesheet"
     />
+
     <link
       href="{{ asset('assets/vendor/swiper/swiper-bundle.min.css') }}"
       rel="stylesheet"
     />
-
     {% block stylesheets %}
     {{
       encore_entry_link_tags("app")
@@ -76,9 +76,6 @@
     <script src="{{
         asset('assets/vendor/isotope-layout/isotope.pkgd.min.js')
       }}"></script>
-    <script src="{{
-        asset('assets/vendor/swiper/swiper-bundle.min.js')
-      }}"></script>
     {#
     <script src="{{
         asset('assets/vendor/php-email-form/validate.js')
@@ -86,7 +83,7 @@
     #}
 
     <!-- Template Main JS File -->
-    <script src="{{ asset('assets/js/main.js') }}"></script>
+    <script src="{{ asset('assets/js/main.js?<t=9>') }}"></script>
     {% endblock %}
   </body>
 </html>

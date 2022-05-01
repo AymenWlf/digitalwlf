@@ -17,7 +17,7 @@
                 une solution WEB de <strong>QUALITE</strong>!
               </p>
               <div class="text-center">
-                <a href="#" class="more-btn"
+                <a href="#about" class="more-btn"
                   >En savoir plus <i class="bx bx-chevron-right"></i
                 ></a>
               </div>

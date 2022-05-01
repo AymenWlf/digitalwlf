@@ -13,41 +13,13 @@
         <swiper-slide>
           <div class="testimonial-item">
             <img class="testimonial-img" alt="" />
-            <h3>Sara Wilssson</h3>
-            <h4>Designer</h4>
+            <h3>Nabil Bouabdalli</h3>
+            <h4>Fondateur de Activlines-shipping</h4>
             <p>
               <i class="bx bxs-quote-alt-left quote-icon-left"></i>
               Export tempor illum tamen malis malis eram quae irure esse labore
               quem cillum quid cillum eram malis quorum velit fore eram velit
               sunt aliqua noster fugiat irure amet legam anim culpa.
-              <i class="bx bxs-quote-alt-right quote-icon-right"></i>
-            </p>
-          </div>
-        </swiper-slide>
-        <swiper-slide>
-          <div class="testimonial-item">
-            <img class="testimonial-img" alt="" />
-            <h3>Saul Goodman</h3>
-            <h4>Ceo &amp; Foundessr</h4>
-            <p>
-              <i class="bx bxs-quote-alt-left quote-icon-left"></i>
-              Proin iaculis purus consequat sem cure digni ssim donec porttitora
-              entum suscipit rhoncus. Accusantium quam, ultricies eget id,
-              aliquam eget nibh et. Maecen aliquam, risus at semper.
-              <i class="bx bxs-quote-alt-right quote-icon-right"></i>
-            </p>
-          </div>
-        </swiper-slide>
-        <swiper-slide>
-          <div class="testimonial-item">
-            <img class="testimonial-img" alt="" />
-            <h3>Saul Goodman</h3>
-            <h4>Ceo &amp; Foundessr</h4>
-            <p>
-              <i class="bx bxs-quote-alt-left quote-icon-left"></i>
-              Proin iaculis purus consequat sem cure digni ssim donec porttitora
-              entum suscipit rhoncus. Accusantium quam, ultricies eget id,
-              aliquam eget nibh et. Maecen aliquam, risus at semper.
               <i class="bx bxs-quote-alt-right quote-icon-right"></i>
             </p>
           </div>

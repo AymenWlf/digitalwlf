@@ -12,10 +12,29 @@
 
       <nav id="navbar" class="navbar">
         <ul>
-          <li><a class="nav-link scrollto active" href="#hero">Acceuil</a></li>
-          <li><a class="nav-link scrollto" href="#about">A propos</a></li>
-          <li><a class="nav-link scrollto" href="#services">Services</a></li>
-          <li><a class="nav-link scrollto" href="#portfolio">Portfolio</a></li>
+          <li>
+            <a
+              class="nav-link scrollto active"
+              @click="toggleNav()"
+              href="#hero"
+              >Acceuil</a
+            >
+          </li>
+          <li>
+            <a class="nav-link scrollto" @click="toggleNav()" href="#about"
+              >A propos</a
+            >
+          </li>
+          <li>
+            <a class="nav-link scrollto" @click="toggleNav()" href="#services"
+              >Services</a
+            >
+          </li>
+          <li>
+            <a class="nav-link scrollto" @click="toggleNav()" href="#portfolio"
+              >Portfolio</a
+            >
+          </li>
           <!-- <li class="dropdown">
             <a href="#"
               ><span>Drop Down</span> <i class="bi bi-chevron-down"></i
@@ -44,7 +63,7 @@
             <a class="nav-link scrollto" href="#contact">Contactez Nous</a>
           </li>
         </ul>
-        <i class="bi bi-list mobile-nav-toggle"></i>
+        <i class="bi bi-list mobile-nav-toggle" @click="toggleNav()"></i>
       </nav>
       <!-- .navbar -->
     </div>
@@ -53,7 +72,21 @@
 </template>
 
 <script>
-export default {};
+export default {
+  name: "header",
+  methods: {
+    toggleNav: function () {
+      if (window.matchMedia("(max-width: 991px)").matches) {
+        document.querySelector(".navbar").classList.toggle("navbar-mobile");
+
+        document
+          .querySelector(".mobile-nav-toggle")
+          .classList.toggle("bi-list");
+        document.querySelector(".mobile-nav-toggle").classList.toggle("bi-x");
+      }
+    },
+  },
+};
 </script>
 
 <style></style>
