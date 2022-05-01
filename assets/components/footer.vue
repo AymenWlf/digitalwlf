@@ -26,7 +26,7 @@
               </li>
               <li>
                 <i class="bx bx-chevron-right"></i>
-                <a href="#">A props de nous</a>
+                <a href="#about">Qui sommes-nous ?</a>
               </li>
               <li>
                 <i class="bx bx-chevron-right"></i> <a href="#">Nos Services</a>
