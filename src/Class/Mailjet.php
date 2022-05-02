@@ -5,7 +5,7 @@ namespace App\Class;
 use Mailjet\Client;
 use Mailjet\Resources;
 
-class MailJet
+class Mailjet
 {
 
     private $P_Key;
