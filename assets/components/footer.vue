@@ -13,8 +13,9 @@
               <strong>Téléphone :</strong>
               <a href="tel:064874083"> 06 14 97 40 83</a><br />
               <strong>Email:</strong>
-              <a href="mailto:contact@digitalwlf.com"></a>
-              contact@digitalwlf.com<br />
+              <a href="mailto:contact@digitalwlf.com">
+                contact@digitalwlf.com<br
+              /></a>
             </p>
           </div>
 
@@ -46,7 +47,7 @@
               </li>
               <li>
                 <i class="bx bx-chevron-right"></i>
-                <a href="#">Site de gestion</a>
+                <a href="#">Application Web</a>
               </li>
             </ul>
           </div>
