@@ -35,6 +35,11 @@
               >Portfolio</a
             >
           </li>
+          <li>
+            <a class="nav-link scrollto" @click="toggleNav()" href="#pricing"
+              >Tarifs</a
+            >
+          </li>
           <!-- <li class="dropdown">
             <a href="#"
               ><span>Drop Down</span> <i class="bi bi-chevron-down"></i
@@ -60,7 +65,9 @@
             </ul>
           </li> -->
           <li>
-            <a class="nav-link scrollto" href="#contact">Contactez Nous</a>
+            <a class="nav-link scrollto" @click="toggleNav()" href="#contact"
+              >Contactez Nous</a
+            >
           </li>
         </ul>
         <i class="bi bi-list mobile-nav-toggle" @click="toggleNav()"></i>

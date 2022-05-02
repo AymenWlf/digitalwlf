@@ -1,185 +1,183 @@
 <template>
-  <main id="main">
-    <!-- ======= Contact Section ======= -->
-    <section id="contact" class="contact">
-      <div class="container">
-        <div class="section-title">
-          <h2 data-aos="fade-up">Contact</h2>
-          <p data-aos="fade-up">
-            Vous pouvez nous contacter à tous moment pour plus d'informations
-          </p>
-        </div>
+  <!-- ======= Contact Section ======= -->
+  <section id="contact" class="contact">
+    <div class="container">
+      <div class="section-title">
+        <h2 data-aos="fade-up">Contact</h2>
+        <p data-aos="fade-up">
+          Vous pouvez nous contacter à tous moment pour plus d'informations
+        </p>
+      </div>
 
-        <div class="row justify-content-center">
-          <div class="col-xl-4 col-lg-6 mt-4" data-aos="fade-up">
-            <div class="info-box">
-              <i class="bx bx-envelope"></i>
-              <h3>Email</h3>
-              <p>
-                <a href="mailto:contact@digitalwlf.com"
-                  >contact@digitalwlf.com</a
-                >
-              </p>
-            </div>
-          </div>
-          <div class="col-xl-1"></div>
-          <div
-            class="col-xl-4 col-lg-6 mt-4"
-            data-aos="fade-up"
-            data-aos-delay="100"
-          >
-            <div class="info-box">
-              <i class="bx bx-phone-call"></i>
-              <h3>Téléphone</h3>
-              <p><a href="tel:064874083">06 14 87 40 83</a></p>
-            </div>
+      <div class="row justify-content-center">
+        <div class="col-xl-4 col-lg-6 mt-4" data-aos="fade-up">
+          <div class="info-box">
+            <i class="bx bx-envelope"></i>
+            <h3>Email</h3>
+            <p>
+              <a href="mailto:contact@digitalwlf.com">contact@digitalwlf.com</a>
+            </p>
           </div>
         </div>
-
+        <div class="col-xl-1"></div>
         <div
-          class="row justify-content-center"
+          class="col-xl-4 col-lg-6 mt-4"
           data-aos="fade-up"
-          data-aos-delay="300"
+          data-aos-delay="100"
         >
-          <div class="col-xl-9 col-lg-12 mt-4">
-            <form
-              v-on:submit.prevent="submit"
-              class="php-email-form"
-              autocomplete="false"
-            >
-              <div class="row">
-                <div class="col-md-6 form-group">
-                  <input
-                    autocomplete="off"
-                    type="text"
-                    name="name"
-                    v-bind:class="{
-                      'form-control': true,
-                      'is-invalid':
-                        !validChamps(Datas.name) && Constraints.nameBlured,
-                    }"
-                    class="form-control"
-                    id="name"
-                    placeholder="Votre Nom"
-                    required
-                    v-model="Datas.name"
-                    v-on:focus="reset()"
-                    v-on:blur="Constraints.nameBlured = true"
-                  />
-                  <div class="invalid-feedback">
-                    <span>Veuillez remplir ce champs</span>
-                  </div>
-                </div>
-                <div class="col-md-6 form-group mt-3 mt-md-0">
-                  <input
-                    autocomplete="off"
-                    type="email"
-                    class="form-control"
-                    v-bind:class="{
-                      'form-control': true,
-                      'is-invalid':
-                        !validEmail(Datas.email) && Constraints.emailBlured,
-                    }"
-                    name="email"
-                    id="email"
-                    placeholder="Votre Email"
-                    required
-                    v-model="Datas.email"
-                    v-on:focus="reset()"
-                    v-on:blur="Constraints.emailBlured = true"
-                  />
-                  <div class="invalid-feedback">
-                    <span>Une adresse email valide est requise !</span>
-                  </div>
-                </div>
-              </div>
-              <div class="form-group mt-3">
+          <div class="info-box">
+            <i class="bx bx-phone-call"></i>
+            <h3>Téléphone</h3>
+            <p><a href="tel:064874083">06 14 87 40 83</a></p>
+          </div>
+        </div>
+      </div>
+
+      <div
+        class="row justify-content-center"
+        data-aos="fade-up"
+        data-aos-delay="300"
+      >
+        <div class="col-xl-9 col-lg-12 mt-4">
+          <form
+            v-on:submit.prevent="submit"
+            class="php-email-form"
+            autocomplete="false"
+          >
+            <div class="row">
+              <div class="col-md-6 form-group">
                 <input
                   autocomplete="off"
                   type="text"
-                  class="form-control"
+                  name="name"
                   v-bind:class="{
                     'form-control': true,
                     'is-invalid':
-                      !validChamps(Datas.subject) && Constraints.subjectBlured,
+                      !validChamps(Datas.name) && Constraints.nameBlured,
                   }"
-                  name="subject"
-                  id="subject"
-                  placeholder="Sujet"
+                  class="form-control"
+                  id="name"
+                  placeholder="Votre Nom"
                   required
-                  v-model="Datas.subject"
+                  v-model="Datas.name"
                   v-on:focus="reset()"
-                  v-on:blur="Constraints.subjectBlured = true"
+                  v-on:blur="Constraints.nameBlured = true"
                 />
                 <div class="invalid-feedback">
                   <span>Veuillez remplir ce champs</span>
                 </div>
               </div>
-              <div class="form-group mt-3">
-                <textarea
+              <div class="col-md-6 form-group mt-3 mt-md-0">
+                <input
                   autocomplete="off"
+                  type="email"
+                  class="form-control"
                   v-bind:class="{
                     'form-control': true,
                     'is-invalid':
-                      !validChamps(Datas.message) && Constraints.messageBlured,
+                      !validEmail(Datas.email) && Constraints.emailBlured,
                   }"
-                  class="form-control"
-                  name="message"
-                  rows="5"
-                  placeholder="Message"
+                  name="email"
+                  id="email"
+                  placeholder="Votre Email"
                   required
-                  v-model="Datas.message"
+                  v-model="Datas.email"
                   v-on:focus="reset()"
-                  v-on:blur="Constraints.messageBlured = true"
-                ></textarea>
+                  v-on:blur="Constraints.emailBlured = true"
+                />
                 <div class="invalid-feedback">
-                  <span>Veuillez remplir ce champs</span>
+                  <span>Une adresse email valide est requise !</span>
                 </div>
               </div>
-              <div class="my-3">
-                <div v-if="Constraints.success" class="sent-message">
-                  <p>Votre message a été envoyer avec succès, Merci !</p>
-                </div>
-                <div v-if="Constraints.error" class="error-message">
-                  <p>
-                    Erreur! Veuillez resaisir votre message, et si cela persist
-                    actualiser la page et réessayer à nouveau !
-                  </p>
-                </div>
+            </div>
+            <div class="form-group mt-3">
+              <input
+                autocomplete="off"
+                type="text"
+                class="form-control"
+                v-bind:class="{
+                  'form-control': true,
+                  'is-invalid':
+                    !validChamps(Datas.subject) && Constraints.subjectBlured,
+                }"
+                name="subject"
+                id="subject"
+                placeholder="Sujet"
+                required
+                v-model="Datas.subject"
+                v-on:focus="reset()"
+                v-on:blur="Constraints.subjectBlured = true"
+              />
+              <div class="invalid-feedback">
+                <span>Veuillez remplir ce champs</span>
               </div>
-              <div class="text-center">
-                <button
-                  v-if="Constraints.loading"
-                  type="submit"
-                  name="submit"
-                  disabled
-                >
-                  <span
-                    class="spinner-border spinner-border-sm"
-                    role="status"
-                    aria-hidden="true"
-                  ></span>
-                  Loading...
-                </button>
-                <button
-                  v-if="
-                    !Constraints.loading &&
-                    !Constraints.success &&
-                    !Constraints.error
-                  "
-                  type="submit"
-                  name="submit"
-                >
-                  Envoyer le message
-                </button>
+            </div>
+            <div class="form-group mt-3">
+              <textarea
+                autocomplete="off"
+                v-bind:class="{
+                  'form-control': true,
+                  'is-invalid':
+                    !validChamps(Datas.message) && Constraints.messageBlured,
+                }"
+                class="form-control"
+                name="message"
+                rows="5"
+                placeholder="Message"
+                required
+                v-model="Datas.message"
+                v-on:focus="reset()"
+                v-on:blur="Constraints.messageBlured = true"
+              ></textarea>
+              <div class="invalid-feedback">
+                <span>Veuillez remplir ce champs</span>
               </div>
-            </form>
-          </div>
+            </div>
+            <div class="my-3 text-center">
+              <div v-if="Constraints.success" class="sent-message">
+                <p class="mb-0">
+                  Votre message a été envoyer avec succès, Merci !
+                </p>
+              </div>
+              <div v-if="Constraints.error" class="error-message">
+                <p class="mb-0">
+                  Erreur! Veuillez resaisir votre message, et si cela persist
+                  actualiser la page et réessayer à nouveau !
+                </p>
+              </div>
+            </div>
+            <div class="text-center">
+              <button
+                v-if="Constraints.loading"
+                type="submit"
+                name="submit"
+                disabled
+              >
+                <span
+                  class="spinner-border spinner-border-sm"
+                  role="status"
+                  aria-hidden="true"
+                ></span>
+                Loading...
+              </button>
+              <button
+                v-if="
+                  !Constraints.loading &&
+                  !Constraints.success &&
+                  !Constraints.error
+                "
+                type="submit"
+                name="submit"
+              >
+                Envoyer le message
+              </button>
+            </div>
+          </form>
         </div>
       </div>
-    </section>
-    <!-- End Contact Section -->
-  </main>
+    </div>
+  </section>
+  <!-- End Contact Section -->
 </template>
 
 <script>

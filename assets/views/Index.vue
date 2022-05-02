@@ -1,11 +1,14 @@
 <template>
-  <Hero />
-  <WhyUs />
-  <About />
-  <Services />
-  <Testimonial />
-  <Portfolio />
-  <Contact />
+  <main id="main">
+    <Hero />
+    <WhyUs />
+    <About />
+    <Services />
+    <Testimonial />
+    <Portfolio />
+    <Pricing />
+    <Contact />
+  </main>
 </template>
 
 <script>
@@ -16,6 +19,7 @@ import Services from "../components/services.vue";
 import Testimonial from "../components/testimonial.vue";
 import Portfolio from "../components/portfolio.vue";
 import Contact from "../components/contact.vue";
+import Pricing from "../components/pricing.vue";
 
 export default {
   name: "Index",
@@ -27,6 +31,7 @@ export default {
     Testimonial,
     Portfolio,
     Contact,
+    Pricing,
   },
 };
 </script>
