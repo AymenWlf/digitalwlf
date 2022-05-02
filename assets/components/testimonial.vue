@@ -12,7 +12,10 @@
       >
         <swiper-slide>
           <div class="testimonial-item">
-            <img class="testimonial-img" alt="" />
+            <img
+              class="testimonial-img"
+              src="https://i.imgur.com/GoE6PHc.jpg"
+            />
             <h3>Nabil Bouabdalli</h3>
             <h4>Fondateur de Activlines-shipping</h4>
             <p>
