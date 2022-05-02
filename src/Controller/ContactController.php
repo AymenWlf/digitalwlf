@@ -3,7 +3,7 @@
 namespace App\Controller;
 
 use DateTime;
-use App\Service\MailJet;
+use App\Class\MailJet;
 use Symfony\Component\HttpFoundation\Request;
 use Symfony\Component\HttpFoundation\Response;
 use Symfony\Component\Routing\Annotation\Route;
