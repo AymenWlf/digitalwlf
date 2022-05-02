@@ -49,15 +49,15 @@
             <ul>
               <li>
                 <i class="bx bx-chevron-right"></i>
-                <a href="#pricing">Site Vitrine</a>
+                <a href="#vitrine">Site Vitrine</a>
               </li>
               <li>
                 <i class="bx bx-chevron-right"></i>
-                <a href="#pricing">Site E-Commerce</a>
+                <a href="#ecom">Site E-Commerce</a>
               </li>
               <li>
                 <i class="bx bx-chevron-right"></i>
-                <a href="#pricing">Application Web</a>
+                <a href="#appweb">Application Web</a>
               </li>
             </ul>
           </div>

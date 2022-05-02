@@ -10,6 +10,7 @@
       <div class="row">
         <div
           class="col-lg-4 col-md-6 mt-4 mt-md-0"
+          id="vitrine"
           data-aos="fade-up"
           data-aos-delay="100"
         >
@@ -39,6 +40,7 @@
 
         <div
           class="col-lg-4 col-md-6 mt-4 mt-md-0"
+          id="appweb"
           data-aos="fade-up"
           data-aos-delay="100"
         >
@@ -71,6 +73,7 @@
 
         <div
           class="col-lg-4 col-md-6 mt-4 mt-md-0"
+          id="ecom"
           data-aos="fade-up"
           data-aos-delay="100"
         >

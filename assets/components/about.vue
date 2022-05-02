@@ -28,7 +28,7 @@
 
           <div class="icon-box" data-aos="fade-up">
             <div class="icon"><i class="bx bi bi-book-half"></i></div>
-            <h4 class="title"><a href="#">Apprentissage constant</a></h4>
+            <h4 class="title"><a>Apprentissage constant</a></h4>
             <p class="description">
               Nous savons très bien que l'informatique est en évolution
               constante, c'est pour cela que nous apprenons chaque jour de
@@ -39,7 +39,7 @@
 
           <div class="icon-box" data-aos="fade-up" data-aos-delay="100">
             <div class="icon"><i class="bx bi bi-signpost-2"></i></div>
-            <h4 class="title"><a href="#">Ethique</a></h4>
+            <h4 class="title"><a>Ethique</a></h4>
             <p class="description">
               Notre éthique nous interdit de participer dans des projets de :
               <strong>USURE(riba)</strong>, <strong>ASSURANCE</strong>,
