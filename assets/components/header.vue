@@ -13,10 +13,7 @@
       <nav id="navbar" class="navbar">
         <ul>
           <li>
-            <a
-              class="nav-link scrollto active"
-              @click="toggleNav()"
-              href="#hero"
+            <a class="nav-link scrollto" @click="toggleNav()" href="#hero"
               >Acceuil</a
             >
           </li>
