@@ -3,7 +3,9 @@
   <section id="contact" class="contact">
     <div class="container">
       <div class="section-title">
-        <h2 data-aos="fade-up">Contact</h2>
+        <h2 data-aos="fade-up">
+          Contactez <span class="color-orange">Nous</span>
+        </h2>
         <p data-aos="fade-up">
           Nous sommes disponible à tous moment pour répondre à vos questions
           afin garantir votre satisfaction !

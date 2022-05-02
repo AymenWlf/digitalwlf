@@ -32,9 +32,12 @@ import router from "./router";
 import axios from "axios";
 import VueAxios from "vue-axios";
 import store from "./store";
+import VueSocialChat from "vue-social-chat";
+import "vue-social-chat/dist/style.css";
 
 createApp(DigitalWlfApp)
   .use(store)
   .use(router)
+  .use(VueSocialChat)
   .use(VueAxios, axios)
   .mount("#app");
