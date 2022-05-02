@@ -32,7 +32,7 @@
               </span>
             </ul>
             <div class="btn-wrap">
-              <a href="#" class="btn-buy">Demander un devis</a>
+              <a href="#contact" class="btn-buy scrollto">Prendre Contact</a>
             </div>
           </div>
         </div>
@@ -64,7 +64,7 @@
               </span>
             </ul>
             <div class="btn-wrap">
-              <a href="#" class="btn-buy">Demander un devis</a>
+              <a href="#contact" class="btn-buy scrollto">Prendre Contact</a>
             </div>
           </div>
         </div>
@@ -96,7 +96,7 @@
               </span>
             </ul>
             <div class="btn-wrap">
-              <a href="#" class="btn-buy">Demander un devis</a>
+              <a href="#contact" class="btn-buy scrollto">Prendre Contact</a>
             </div>
           </div>
         </div>

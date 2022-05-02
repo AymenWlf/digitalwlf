@@ -32,7 +32,7 @@
           </li>
           <li>
             <a class="nav-link scrollto" @click="toggleNav()" href="#portfolio"
-              >Portfolio</a
+              >Nos Projets</a
             >
           </li>
           <li>

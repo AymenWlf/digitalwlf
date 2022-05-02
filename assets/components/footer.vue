@@ -30,7 +30,16 @@
                 <a href="#about">Qui sommes-nous ?</a>
               </li>
               <li>
-                <i class="bx bx-chevron-right"></i> <a href="#">Nos Services</a>
+                <i class="bx bx-chevron-right"></i>
+                <a href="#portfolio">Nos Projets</a>
+              </li>
+              <li>
+                <i class="bx bx-chevron-right"></i>
+                <a href="#pricing">Tarifications</a>
+              </li>
+              <li>
+                <i class="bx bx-chevron-right"></i>
+                <a href="#contact">Contactez Nous</a>
               </li>
             </ul>
           </div>
@@ -39,15 +48,16 @@
             <h4>Nos Services</h4>
             <ul>
               <li>
-                <i class="bx bx-chevron-right"></i> <a href="#">Site Vitrine</a>
+                <i class="bx bx-chevron-right"></i>
+                <a href="#pricing">Site Vitrine</a>
               </li>
               <li>
                 <i class="bx bx-chevron-right"></i>
-                <a href="#">Site E-Commerce</a>
+                <a href="#pricing">Site E-Commerce</a>
               </li>
               <li>
                 <i class="bx bx-chevron-right"></i>
-                <a href="#">Application Web</a>
+                <a href="#pricing">Application Web</a>
               </li>
             </ul>
           </div>

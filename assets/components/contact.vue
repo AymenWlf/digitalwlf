@@ -5,12 +5,13 @@
       <div class="section-title">
         <h2 data-aos="fade-up">Contact</h2>
         <p data-aos="fade-up">
-          Vous pouvez nous contacter à tous moment pour plus d'informations
+          Nous sommes disponible à tous moment pour répondre à vos questions
+          afin garantir votre satisfaction !
         </p>
       </div>
 
       <div class="row justify-content-center">
-        <div class="col-xl-4 col-lg-6 mt-4" data-aos="fade-up">
+        <div class="col-xl-5 col-lg-6 mt-4" data-aos="fade-up">
           <div class="info-box">
             <i class="bx bx-envelope"></i>
             <h3>Email</h3>
@@ -19,9 +20,8 @@
             </p>
           </div>
         </div>
-        <div class="col-xl-1"></div>
         <div
-          class="col-xl-4 col-lg-6 mt-4"
+          class="col-xl-5 col-lg-6 mt-4"
           data-aos="fade-up"
           data-aos-delay="100"
         >
@@ -38,7 +38,7 @@
         data-aos="fade-up"
         data-aos-delay="300"
       >
-        <div class="col-xl-9 col-lg-12 mt-4">
+        <div class="col-xl-10 col-lg-12 mt-4">
           <form
             v-on:submit.prevent="submit"
             class="php-email-form"

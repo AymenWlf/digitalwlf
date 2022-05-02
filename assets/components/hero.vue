@@ -12,7 +12,7 @@
       </h2>
       <div class="d-flex align-items-center">
         <i class="bx bxs-right-arrow-alt get-started-icon"></i>
-        <a href="#about" class="btn-get-started scrollto">Prendre contact</a>
+        <a href="#contact" class="btn-get-started scrollto">Prendre contact</a>
       </div>
     </div>
   </section>

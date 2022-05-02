@@ -14,7 +14,7 @@
       </div>
 
       <div class="cta d-none d-md-flex align-items-center">
-        <a href="#" class="scrollto">Demander un devis</a>
+        <a href="#contact" class="scrollto">Prendre Contact</a>
       </div>
     </div>
   </section>

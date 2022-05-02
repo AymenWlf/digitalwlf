@@ -1,11 +1,17 @@
 import { createRouter, createWebHistory } from "vue-router";
 import Index from "../views/Index";
+import Quote from "../views/Quote";
 
 const routes = [
   {
     path: "/",
     name: "index",
     component: Index,
+  },
+  {
+    path: "/quote",
+    name: "quote",
+    component: Quote,
   },
 ];
 

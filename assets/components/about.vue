@@ -3,7 +3,7 @@
   <section id="about" class="about section-bg">
     <div class="container">
       <div class="row">
-        <div
+        <!-- <div
           class="col-xl-5 col-lg-6 video-box d-flex justify-content-center align-items-stretch position-relative"
           data-aos="fade-right"
         >
@@ -11,10 +11,10 @@
             href="https://www.youtube.com/watch?v=jDDaplaOz7Q"
             class="glightbox play-btn mb-4"
           ></a>
-        </div>
+        </div> -->
 
         <div
-          class="col-xl-7 col-lg-6 icon-boxes d-flex flex-column align-items-stretch justify-content-center py-5 px-lg-5"
+          class="col-xl-12 col-lg-12 icon-boxes d-flex flex-column align-items-stretch justify-content-center py-5 px-lg-5"
         >
           <h4 data-aos="fade-up">A propos</h4>
           <h3 data-aos="fade-up">Qui sommes nous ?</h3>
@@ -22,10 +22,8 @@
             Nous sommes une micro-entreprise fondée par un jeune
             auto-entrepreneur étudiant en ingénierie informatique, dont le but
             est d'intégrer dans le domaine du web une nouvelle vision basée sur
-            les nouvelles technologies, nous visons toujours l'excellence et la
-            satisfaction de nos clients, car nous croyons que gagner une part
-            d'un grannnn...d gâteau est meilleure que de gagner un petit gateau
-            complet.
+            les nouvelles technologies car nous visons toujours l'excellence et
+            la satisfaction de nos clients.
           </p>
 
           <div class="icon-box" data-aos="fade-up">
