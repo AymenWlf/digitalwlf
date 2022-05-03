@@ -3,7 +3,9 @@
   <section id="portfolio" class="portfolio">
     <div class="container">
       <div class="section-title">
-        <h2 data-aos="fade-up">Nos Projets</h2>
+        <h2 data-aos="fade-up">
+          Nos <span class="color-orange">Projets</span>
+        </h2>
         <p data-aos="fade-up">
           Les projets ci-dessous représentent les sites web rendu public
           réaliser par Digital WLF

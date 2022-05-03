@@ -2,13 +2,18 @@
 # Footer
 --------------------------------------------------------------*/
 #footer {
-  color: $default;
+  color: $white;
   font-size: 14px;
   background: $white;
 
+  a {
+    color: $white;
+    font-weight: 500;
+  }
+
   .footer-top {
     padding: 60px 0 30px 0;
-    background: $footerColor;
+    background: $primary;
 
     .footer-contact {
       h4 {
@@ -24,7 +29,7 @@
         line-height: 24px;
         margin-bottom: 0;
         font-family: $font-primary;
-        color: lighten($default, 20);
+        color: lighten($white, 20);
       }
       margin-bottom: 30px;
     }
@@ -32,7 +37,7 @@
     h4 {
       font-size: 16px;
       font-weight: bold;
-      color: $default;
+      color: $white;
       position: relative;
       padding-bottom: 12px;
     }
@@ -61,7 +66,7 @@
         }
 
         a {
-          color: lighten($default, 20);
+          color: lighten($white, 20);
           transition: 0.3s;
           display: inline-block;
           line-height: 1;
@@ -80,7 +85,7 @@
     h4 {
       font-size: 16px;
       font-weight: bold;
-      color: $default;
+      color: $white;
       position: relative;
       padding-bottom: 12px;
     }
@@ -109,13 +114,13 @@
         background: none;
         font-size: 16px;
         padding: 0 20px;
-        background: $primary;
+        background: $default;
         color: $white;
         transition: 0.3s;
         border-radius: 50px;
         box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
         &:hover {
-          background: darken($primary, 10%);
+          background: darken($default, 10%);
         }
       }
     }
@@ -124,6 +129,10 @@
   .credits {
     padding-top: 5px;
     font-size: 13px;
+    color: $default;
+  }
+
+  .copyright {
     color: $default;
   }
 

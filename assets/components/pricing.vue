@@ -3,7 +3,7 @@
   <section id="pricing" class="pricing section-bg">
     <div class="container">
       <div class="section-title">
-        <h2 data-aos="fade-up">Tarifs</h2>
+        <h2 data-aos="fade-up">Nos <span class="color-orange">Tarifs</span></h2>
         <p data-aos="fade-up">Les prix varient selon la complexité du projet</p>
       </div>
 
@@ -26,7 +26,7 @@
               <span>
                 <li>SITE RAPIDE</li>
                 <li>MAINTENANCE ET ASSISTANCE</li>
-                <li class="color-orange">LOGO ET DEPLOIEMENT GRATUIT</li>
+                <li class="color-orange">DEPLOIEMENT GRATUIT</li>
                 <li class="color-orange">
                   ADAPTATEE POUR PC, TABLETTE ET TELEPHONE
                 </li>
@@ -59,7 +59,7 @@
               <span>
                 <li>SITE RAPIDE</li>
                 <li>MAINTENANCE ET ASSISTANCE</li>
-                <li class="color-orange">LOGO ET DEPLOIEMENT GRATUIT</li>
+                <li class="color-orange">DEPLOIEMENT GRATUIT</li>
                 <li class="color-orange">
                   ADAPTATEE POUR PC, TABLETTE ET TELEPHONE
                 </li>
@@ -89,7 +89,7 @@
               <span>
                 <li>SITE RAPIDE</li>
                 <li>MAINTENANCE ET ASSISTANCE</li>
-                <li class="color-orange">LOGO ET DEPLOIEMENT GRATUIT</li>
+                <li class="color-orange">DEPLOIEMENT GRATUIT</li>
                 <li class="color-orange">
                   MINI APPLICATION WEB DE GESTION DE COMMANDE GRATUIT
                 </li>

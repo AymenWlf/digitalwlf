@@ -3,7 +3,7 @@
   <section id="services" class="services section-bg">
     <div class="container">
       <div class="section-title" data-aos="fade-up">
-        <h2>Services</h2>
+        <h2>Nos <span class="color-orange">Services</span></h2>
         <p>Voici les services que nous pouvons vous proposer :</p>
       </div>
 
@@ -14,7 +14,7 @@
             <h4 class="title"><a>Développement de sites web</a></h4>
             <p class="description">
               Nous nous occupons de la création de votre site web avec ou sans
-              cahier des charges ( VITRINE , E-COMMERCE , APPLICATION WEB )
+              cahier des charges de A à Z
             </p>
           </div>
         </div>

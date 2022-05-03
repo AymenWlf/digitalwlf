@@ -13,7 +13,10 @@
       <nav id="navbar" class="navbar">
         <ul>
           <li>
-            <a class="nav-link scrollto" @click="toggleNav()" href="#hero"
+            <a
+              class="nav-link scrollto active"
+              @click="toggleNav()"
+              href="#hero"
               >Acceuil</a
             >
           </li>
@@ -78,6 +81,44 @@
 <script>
 export default {
   name: "header",
+  mounted() {
+    let selectHeader = document.querySelector("#header");
+    if (selectHeader) {
+      let headerOffset = selectHeader.offsetTop;
+      let nextElement = selectHeader.nextElementSibling;
+      const headerFixed = () => {
+        if (headerOffset - window.scrollY <= 0) {
+          selectHeader.classList.add("fixed-top");
+          nextElement.classList.add("scrolled-offset");
+        } else {
+          selectHeader.classList.remove("fixed-top");
+          nextElement.classList.remove("scrolled-offset");
+        }
+      };
+      window.addEventListener("load", headerFixed);
+      document.addEventListener("scroll", headerFixed);
+    }
+
+    let navbarlinks = document.querySelectorAll("#navbar .scrollto");
+    const navbarlinksActive = () => {
+      let position = window.scrollY + 200;
+      navbarlinks.forEach((navbarlink) => {
+        if (!navbarlink.hash) return;
+        let section = document.querySelector(navbarlink.hash);
+        if (!section) return;
+        if (
+          position >= section.offsetTop &&
+          position <= section.offsetTop + section.offsetHeight
+        ) {
+          navbarlink.classList.add("active");
+        } else {
+          navbarlink.classList.remove("active");
+        }
+      });
+    };
+    window.addEventListener("load", navbarlinksActive);
+    document.addEventListener("scroll", navbarlinksActive);
+  },
   methods: {
     toggleNav: function () {
       if (window.matchMedia("(max-width: 991px)").matches) {
