@@ -49,8 +49,8 @@
                   <i class="bx bx-cube-alt"></i>
                   <h4>Integrité</h4>
                   <p>
-                    l'honnêteté, le respect et l'ethique sont des valeurs
-                    fondamentale qui dictent notre conduite
+                    l'honnêteté, le respect et l'éthique sont des valeurs
+                    fondamentales qui dictent notre conduite
                   </p>
                 </div>
               </div>

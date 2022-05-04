@@ -4,7 +4,7 @@
     <div class="container">
       <div class="section-title" data-aos="fade-up">
         <h2>Nos <span class="color-orange">Services</span></h2>
-        <p>Voici les services que nous pouvons vous proposer :</p>
+        <p>Voici les services que nous proposons :</p>
       </div>
 
       <div class="row">
@@ -23,8 +23,8 @@
             <div class="icon"><i class="bi bi-vector-pen"></i></div>
             <h4 class="title"><a>Rédaction Web</a></h4>
             <p class="description">
-              Si vous n'avez pas une idée de contenue à mettre dans votre site
-              web, alors on vous propose des modèles professionnel que vous
+              Si vous n'avez pas d'idées de contenues à mettre dans votre site
+              web, alors on vous propose des modèles professionnels que vous
               pouvez utiliser
             </p>
           </div>
@@ -32,11 +32,11 @@
         <div class="col-lg-6 col-md-6" data-aos="fade-up" data-aos-delay="200">
           <div class="icon-box">
             <div class="icon"><i class="bi bi-hdd-rack"></i></div>
-            <h4 class="title"><a>Hebergement</a></h4>
+            <h4 class="title"><a>Hébergement</a></h4>
             <p class="description">
               Si vous ne disposez pas d'un hébergement ou/et d'emails
-              professionnel, on s'occupe de vous en louer et de vous former pour
-              son utilisation
+              professionnels, on s'occupe de vous en louer et de vous former
+              pour son utilisation
             </p>
           </div>
         </div>

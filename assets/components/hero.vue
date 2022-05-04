@@ -8,7 +8,7 @@
       <h1>Bienvenue chez Digital WLF</h1>
       <h2>
         Notre agence web est fière de vous proposer des sites WEB de qualité
-        adapter à vos besoins!
+        adaptés à vos besoins!
       </h2>
       <div class="d-flex align-items-center">
         <i class="bx bxs-right-arrow-alt get-started-icon"></i>

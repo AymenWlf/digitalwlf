@@ -28,7 +28,7 @@
                 <li>MAINTENANCE ET ASSISTANCE</li>
                 <li class="color-orange">DEPLOIEMENT GRATUIT</li>
                 <li class="color-orange">
-                  ADAPTATEE POUR PC, TABLETTE ET TELEPHONE
+                  ADAPTEE POUR PC, TABLETTE ET MOBILE
                 </li>
               </span>
             </ul>
@@ -61,7 +61,7 @@
                 <li>MAINTENANCE ET ASSISTANCE</li>
                 <li class="color-orange">DEPLOIEMENT GRATUIT</li>
                 <li class="color-orange">
-                  ADAPTATEE POUR PC, TABLETTE ET TELEPHONE
+                  ADAPTEE POUR PC, TABLETTE ET MOBILE
                 </li>
               </span>
             </ul>
@@ -94,7 +94,7 @@
                   MINI APPLICATION WEB DE GESTION DE COMMANDE GRATUIT
                 </li>
                 <li class="color-orange">
-                  ADAPTATEE POUR PC, TABLETTE ET TELEPHONE
+                  ADAPTEE POUR PC, TABLETTE ET MOBILE
                 </li>
               </span>
             </ul>

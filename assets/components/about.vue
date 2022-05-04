@@ -32,7 +32,7 @@
             <p class="description">
               Nous savons très bien que l'informatique est en évolution
               constante, c'est pour cela que nous apprenons chaque jour de
-              nouvelle chose qu'on applique avec fierte dans nos nouveaux
+              nouvelle chose qu'on applique avec fierté dans nos nouveaux
               projets
             </p>
           </div>
