@@ -17,12 +17,13 @@
               src="https://i.imgur.com/GoE6PHc.jpg"
             />
             <h3>Nabil Bouabdalli</h3>
-            <h4>Fondateur de Activlines-shipping</h4>
+            <h4>Directeur général de Activlines-shipping</h4>
             <p>
               <i class="bx bxs-quote-alt-left quote-icon-left"></i>
-              Export tempor illum tamen malis malis eram quae irure esse labore
-              quem cillum quid cillum eram malis quorum velit fore eram velit
-              sunt aliqua noster fugiat irure amet legam anim culpa.
+              Je tenais à vous exprimer mes remerciements les plus sincères pour
+              la qualité du travail que vous avez effectué pour notre société
+              ACTIV LINES SHIPPING Votre travail m'a apporté une très grande
+              satisfaction.
               <i class="bx bxs-quote-alt-right quote-icon-right"></i>
             </p>
           </div>

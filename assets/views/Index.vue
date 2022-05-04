@@ -4,7 +4,7 @@
     <WhyUs />
     <About />
     <Services />
-    <!-- <Testimonial /> -->
+    <Testimonial />
     <Portfolio />
     <Pricing />
     <Contact />
