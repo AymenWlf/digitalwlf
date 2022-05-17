@@ -31,7 +31,7 @@ export default {
     SocialChat,
   },
   setup() {
-    const photoAymen = "";
+    const photoAymen = "https://i.imgur.com/RaEMLVZ.png";
     const label = "Developpeur";
     const attendants = [
       {

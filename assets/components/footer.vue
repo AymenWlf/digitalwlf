@@ -14,7 +14,7 @@
               <a href="tel:064874083"> 06 14 97 40 83</a><br />
               <strong>Email:</strong>
               <a href="mailto:contact@digitalwlf.com">
-                contact@digitalwlf.com<br
+                contact@aymenwlf.me<br
               /></a>
             </p>
           </div>

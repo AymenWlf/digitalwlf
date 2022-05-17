@@ -10,8 +10,8 @@ class Mailjet
 
     private $P_Key;
     private $S_Key; 
-    const ADMINEMAIL = "aymen@digitalwlf.com";
-    const SECADMINEMAIL = "contact@digitalwlf.com";
+    const ADMINEMAIL = "aymen@aymenwlf.me";
+    const SECADMINEMAIL = "contact@aymenwlf.me";
 
     public function __construct()
     {
