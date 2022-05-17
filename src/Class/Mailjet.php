@@ -27,7 +27,7 @@ class Mailjet
                 [
                     'From' => [
                         'Email' => self::ADMINEMAIL,
-                        'Name' => "Transit"
+                        'Name' => "DigitalWLF"
                     ],
                     'To' => [
                         [
