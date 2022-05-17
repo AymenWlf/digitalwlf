@@ -4,7 +4,7 @@
     <div class="container d-flex align-items-center justify-content-between">
       <div class="logo d-flex align-items-center scrollto me-auto me-lg-0">
         <a href="index.html" class="mx-2"
-          ><img src="assets/img/logo.png" alt="" class="img-fluid"
+          ><img src="assets/img/Logo.png" alt="" class="img-fluid"
         /></a>
         <h1><a href="#">Digital WLF</a></h1>
         <!-- Uncomment below if you prefer to use an image logo -->
