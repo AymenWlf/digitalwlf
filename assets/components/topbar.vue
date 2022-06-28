@@ -6,7 +6,7 @@
     >
       <div class="contact-info d-flex align-items-center">
         <i class="bi bi-envelope d-flex align-items-center email"
-          ><a href="mailto:contact@aymenwlf.me">contact@aymenwlf.me</a></i
+          ><a href="mailto:contact.digitalwlf@gmail.com">contact.digitalwlf@gmail.com</a></i
         >
         <i class="bi bi-phone d-flex align-items-center ms-4 tel"
           ><a href="tel:064874083">06 14 87 40 83</a></i
