@@ -13,8 +13,8 @@
               <strong>Téléphone :</strong>
               <a href="tel:064874083"> 06 14 97 40 83</a><br />
               <strong>Email:</strong>
-              <a href="mailto:contact.digitalwlf@gmail.com">
-                contact.digitalwlf@gmail.com<br
+              <a href="mailto:contact@digitalwlf.com">
+                contact@digitalwlf.com<br
               /></a>
             </p>
           </div>

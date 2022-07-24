@@ -18,7 +18,7 @@
             <i class="bx bx-envelope"></i>
             <h3>Email</h3>
             <p>
-              <a href="mailto:contact.digitalwlf@gmail.com">contact.digitalwlf@gmail.com</a>
+              <a href="mailto:contact@digitalwlf.com">contact@digitalwlf.com</a>
             </p>
           </div>
         </div>
