@@ -1,89 +1,78 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="UTF-8" />
-    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+	<head>
+		<meta charset="UTF-8"/>
+		<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
 
-    <title>Agence WEB - Création de site web professionnel Pas Cher</title>
+		<title>Agence WEB - Création de site web professionnel Pas Cher</title>
 
-    <meta content="" name="description" />
-    <meta content="" name="keywords" />
+		<meta content="Agence de création et développement de site internet et community manager (Gestion de vos réseaux sociaux) localisé à Casablanca, spécialiser en site vitrine SEO et bien référencer ainsi que les boutiques en ligne (E-Commerce) et Application WEB (Logiciel)" name="description"/>
+		<meta
+		content="Web,Site Internet,SEO,Référencement,Community Manager,Content Manager,Réseaux Sociaux" name="keywords"/>
 
-    <!-- Favicons -->
-    <link href="{{ asset('assets/img/Logo (no bg).png') }}" rel="icon" />
-    <link
-      href="{{ asset('assets/img/Logo (no bg).png') }}"
-      rel="apple-touch-icon"
-    />
+		<!-- Favicons -->
+		<link href="{{ asset('assets/img/Logo (no bg).png') }}" rel="icon"/>
+		<link
+		href="{{ asset('assets/img/Logo (no bg).png') }}" rel="apple-touch-icon"/>
 
-    <!-- Google Fonts -->
-    <link
-      href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i"
-      rel="stylesheet"
-    />
+		<!-- Google Fonts -->
+		<link
+		href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet"/>
 
-    <!-- Vendor CSS Files -->
-    <link href="{{ asset('assets/vendor/aos/aos.css') }}" rel="stylesheet" />
-    <link
-      href="{{ asset('assets/vendor/bootstrap/css/bootstrap.min.css') }}"
-      rel="stylesheet"
-    />
-    <link
-      href="{{ asset('assets/vendor/bootstrap-icons/bootstrap-icons.css') }}"
-      rel="stylesheet"
-    />
-    <link
-      href="{{ asset('assets/vendor/boxicons/css/boxicons.min.css') }}"
-      rel="stylesheet"
-    />
-    <link
-      href="{{ asset('assets/vendor/glightbox/css/glightbox.min.css') }}"
-      rel="stylesheet"
-    />
+		<!-- Vendor CSS Files -->
+		<link href="{{ asset('assets/vendor/aos/aos.css') }}" rel="stylesheet"/>
+		<link href="{{ asset('assets/vendor/bootstrap/css/bootstrap.min.css') }}" rel="stylesheet"/>
+		<link href="{{ asset('assets/vendor/bootstrap-icons/bootstrap-icons.css') }}" rel="stylesheet"/>
+		<link href="{{ asset('assets/vendor/boxicons/css/boxicons.min.css') }}" rel="stylesheet"/>
+		<link href="{{ asset('assets/vendor/glightbox/css/glightbox.min.css') }}" rel="stylesheet"/>
 
-    <link
-      href="{{ asset('assets/vendor/swiper/swiper-bundle.min.css') }}"
-      rel="stylesheet"
-    />
-    {% block stylesheets %}
-    {{
+		<link
+		href="{{ asset('assets/vendor/swiper/swiper-bundle.min.css') }}" rel="stylesheet"/>
+
+		<!-- Global site tag (gtag.js) - Google Analytics -->
+		<script async src="https://www.googletagmanager.com/gtag/js?id=G-EJ4D5YPZLJ"></script>
+		<script>
+			window.dataLayer = window.dataLayer || [];
+function gtag() {
+dataLayer.push(arguments);
+}
+gtag('js', new Date());
+
+gtag('config', 'G-EJ4D5YPZLJ');
+		</script>
+
+		{% block stylesheets %}
+			{{
       encore_entry_link_tags("app")
     }}
-    {% endblock %} {% block javascripts %}
-    {{
+		{% endblock %}
+		{% block javascripts %}
+			{{
       encore_entry_script_tags("app")
     }}
-    {% endblock %}
-  </head>
-  <body>
-    {% block body %}
-    <div id="app"></div>
+		{% endblock %}
+	</head>
+	<body>
+		{% block body %}
+			<div id="app"></div>
 
-    <a
-      href="#"
-      class="back-to-top d-flex align-items-center justify-content-center"
-      ><i class="bi bi-arrow-up-short"></i
-    ></a>
+			<a href="#" class="back-to-top d-flex align-items-center justify-content-center">
+				<i class="bi bi-arrow-up-short"></i>
+			</a>
 
-    <!-- Vendor JS Files -->
-    <script src="{{ asset('assets/vendor/aos/aos.js') }}"></script>
-    <script src="{{
-        asset('assets/vendor/bootstrap/js/bootstrap.bundle.min.js')
-      }}"></script>
-    <script src="{{
-        asset('assets/vendor/glightbox/js/glightbox.min.js')
-      }}"></script>
-    <script src="{{
-        asset('assets/vendor/isotope-layout/isotope.pkgd.min.js')
-      }}"></script>
-    {#
-    <script src="{{
-        asset('assets/vendor/php-email-form/validate.js')
-      }}"></script>
-    #}
+			<!-- Vendor JS Files -->
+			<script src="{{ asset('assets/vendor/aos/aos.js') }}"></script>
+			<script src="{{ asset('assets/vendor/bootstrap/js/bootstrap.bundle.min.js') }}"></script>
+			<script src="{{ asset('assets/vendor/glightbox/js/glightbox.min.js') }}"></script>
+			<script src="{{ asset('assets/vendor/isotope-layout/isotope.pkgd.min.js') }}"></script>
+			{#
+																																																																								    <script src="{{
+																																																																								        asset('assets/vendor/php-email-form/validate.js')
+																																																																								      }}"></script>
+																																																																								    #}
 
-    <!-- Template Main JS File -->
-    <script src="{{ asset('assets/js/main.js?<t=9>') }}"></script>
-    {% endblock %}
-  </body>
+			<!-- Template Main JS File -->
+			<script src="{{ asset('assets/js/main.js?<t=9>') }}"></script>
+		{% endblock %}
+	</body>
 </html>
